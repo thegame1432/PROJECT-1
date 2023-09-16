@@ -1,0 +1,124 @@
+.main{
+    display:flex;
+    flex-wrap: wrap;
+}
+.main>.first{
+    margin: 10px;
+    width: 350px;
+    height: 350px; 
+    background: linear-gradient(to bottom right, #0000ff ,#ff33cc);
+    
+    border-radius: 2%;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    
+}
+.main>.second{
+    margin: 10px;
+    width: 350px;
+    height: 350px; 
+    background-color: white;
+    border-radius: 3%;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: black;
+    
+}
+.main>.third{
+    margin: 10px;
+    width: 350px;
+    height: 350px; 
+    background-color: lightgray;
+    border-radius: 3%;
+    box-shadow: 3px 3px 3px 3px rgb(156, 152, 152);
+}
+img{
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    width: 350px;
+    margin: 20px;
+    margin-bottom: 5px;
+  }
+
+  .flex-container > div {
+    background-color: #00407A;
+    margin: 5px;
+    padding: 8px;
+    width: 78px;
+    height: 78px;
+    border-radius: 10%;
+  }
+  
+  .flex-container>div:last-child{
+    background-color: maroon;
+  }
+  .change:hover{
+    background-color: maroon;
+  }
+  a{
+    text-decoration: none;
+  }
+  span{
+    font-size: x-large;
+    padding: 20px;
+    text-decoration: none;
+  }
+  nav{
+    width: 100%;
+    height: 50px;
+   margin-bottom: 40px;
+    box-shadow: 0px 0px 0px 3px lightgray;
+    display: flex;
+    justify-content: right;
+  }
+  .q{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  
+  .wrap1{
+    position: absolute;
+    top: 80px;
+    left: 280px;
+    font-size: .75cm;
+  }
+  .wrap2{
+    position: absolute;
+    top: 120px;
+    left: 280px;
+    font-size: .75cm;
+
+  }
+  .wrap3{
+    position: absolute;
+    top: 160px;
+    left: 280px;
+    font-size: .75cm;
+
+  }
+  body{
+    background-color: azure;
+  }
+  /* @media screen and (min-width: 80rem) {
+    .first {
+      margin: 1em 2em;
+    }
+  }
+  @media screen and (min-width: 80rem) {
+    .second {
+      margin: 1em 2em;
+    }
+  }
+  @media screen and (min-width: 80rem) {
+    .third {
+      margin: 1em 2em;
+    }
+  }
+  */
+ 
